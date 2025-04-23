@@ -1,0 +1,57 @@
+body {
+    background-image: url(im/фон.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+
+
+}
+h1 {
+    color: black;
+    font-size: 50px;
+    margin-left: 530px;
+    padding: 0 30px;
+    text-align: center;
+    background-color: darkred;
+    margin-right: 530px;
+}
+
+h2{    color: rgba(20, 19, 21, 0.99);
+    font-size: 20px;
+    margin-left: 180px;
+    padding: 0 30px;
+    text-align: center;
+    background-color: darkred;
+    margin-right: 180px;
+
+}
+h3{
+    color: rgba(20, 19, 21, 0.99);
+    font-size: 20px;
+    margin-left: 400px;
+    padding: 0 30px;
+    text-align: center;
+    background-color: darkred;
+    margin-right: 400px;
+}
+p{
+    color: rgba(20, 19, 21, 0.99);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 440px;
+    margin-right: 440px;
+    padding: 0 30px;
+    text-align: center;
+    background-color: darkred;
+
+}
+
+img{
+    width: 400px;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+
+
+}

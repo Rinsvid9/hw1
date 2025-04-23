@@ -1,0 +1,43 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkolivegreen;
+}
+.card{
+    border-radius: 0;
+    border: 3px solid rgb(77, 11, 121);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: darkseagreen;
+
+}
+.card p{
+    margin-left: 0;
+    font-size: 14px;
+    font-weight: normal;
+    padding-right: 15px;
+    padding-top: 0;
+    text-align: left;
+    margin-top: -20px;
+    line-height: 1.7;
+
+}
+.card h2{
+
+    font-size: 20px;
+    margin-right: 95px;
+
+}
+.card:hover{
+    transform: scale(1.1);
+
+}
