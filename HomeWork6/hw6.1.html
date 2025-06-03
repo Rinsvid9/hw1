@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            margin: 0;
+            background-color: #009b94;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .reg{
+            width: 400px;
+            background-color: white;
+            border-radius: 10px;
+            margin: 50px auto;
+            overflow: hidden
+        }
+
+        .reg div:nth-child(1){
+            background-color:#E9F3F3; /* блакитний */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .reg div h1 {
+            margin: 0;
+            font-size: 18px;
+            color: black;
+            padding: 14px;
+            font-weight: normal;
+        }
+
+        .reg2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 8px auto 8px auto;
+        }
+
+        input[type="email"]{
+            width: 70%;
+            align-items: center;
+            padding: 8px;
+            margin: 8px auto 8px auto;
+        }
+
+        input[type="password"]{
+            width: 70%;
+            align-items: center;
+            padding: 8px;
+        }
+
+        .reg2 div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+            margin: 10px auto 10px auto;
+        }
+
+        input[type="submit"]{
+            width: 80px;
+            height: 25px;
+            align-items: center;
+            border-radius: 5px;
+            border: 1px groove grey;
+            padding: 0;
+            margin: 8px auto 8px auto;
+        }
+
+        input[type="checkbox"]{
+            appearance: none;
+            width: 10px;
+            height: 10px;
+            border: 1px solid black;
+            margin-bottom: 0;
+            align-items: center;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="reg">
+    <div>
+        <h1>Вхід в особистий кабінет</h1>
+    </div>
+
+    <form class="reg2">
+        <label for="email"></label>
+        <input type="email" name="email" id="email" placeholder="Логін або email " required>
+
+        <label for="password"></label>
+        <input type="password" name="password" id="password" placeholder="Пароль " required>
+
+        <div>
+            <label>Запам'ятати мене?
+                <input type="checkbox" name="remember">
+            </label>
+            <label class="button">
+                <input type="submit" value="Вхід">
+            </label>
+        </div>
+    </form>
+</div>
+</body>
+</html>

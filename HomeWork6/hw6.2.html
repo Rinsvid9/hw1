@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+           box-sizing: border-box;
+        }
+
+        body{
+            background-color: cornsilk;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+        .registr{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            /*width: 800px;*/
+            /*height: 700px;*/
+            /*padding: 50px;*/
+        }
+
+        .logo{
+            position: relative;
+            width: 300px;
+            height: 300px;
+            object-fit: contain;
+        }
+
+        .reg{
+            width: 450px;
+            height: 550px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid grey;
+        }
+
+        input[type="text"]{
+            width: 80%;
+            height: 40px;
+            align-items: center;
+            padding: 8px;
+            margin: 8px auto 8px auto;
+        }
+        input[type="password"]{
+            width: 80%;
+            height: 40px;
+            align-items: center;
+            padding: 8px;
+            margin: 8px auto 8px auto;
+        }
+
+        input[type="submit"]{
+            width: 360px;
+            align-items: center;
+            padding: 8px;
+            margin: 12px auto 8px auto;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: #68B5FA;
+            border: none;
+            color: white;
+
+        }
+
+        .fb-login-btn{
+            background-color: #3b5998;
+            color: white;
+            border: 1px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .between{
+            margin: 15px auto 15px auto;
+            color: #9D9D9D;
+        }
+
+        .other{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .fb-login-btn{
+            background-color: transparent;
+            margin: 1rem;
+            border: 0;
+            font-weight: bold;
+            cursor: pointer;
+            color: #315185;
+            font-size: 1rem
+        }
+
+        .forgot-password{
+            color: #315185;
+            padding: 10px 20px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bolder;
+            margin: 10px auto 10px auto;
+
+        }
+
+        .or{
+            width: 450px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            border: 1px solid grey;
+            margin: 10px auto;
+            gap: 10px;
+        }
+
+        .or p{
+            font-size: 20px;
+            font-weight: unset;
+
+        }
+
+        .last{
+            text-decoration: none;
+            color: #289DF7;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="registr">
+    <form class="reg">
+        <img src="im/inst.png" alt="Avatar" class="logo">
+        <label for="text"></label>
+        <input type="text" placeholder="Логін, номер телефону або email" name="login" required>
+
+
+        <label for="password"></label>
+        <input type="password" name="password" id="password" placeholder="Пароль " required>
+
+        <div>
+            <label class="button">
+                <input type="submit" value="Вхід">
+            </label>
+        </div>
+        <p class="between">АБО</p>
+        <div class="other">
+            <button class="fb-login-btn" type="button">
+                <i class="fab fa-facebook-square"></i>
+                <span class="">Увійдіть за допомогою Facebook</span>
+            </button>
+            <a class="forgot-password" href="#">Забули пароль?</a>
+        </div>
+    </form>
+
+    <div class="or">
+        <p>Не маєте облікового запису?</p>
+        <a class="last" href="#">Зареєструйтеся</a>
+    </div>
+</div>
+</body>
+</html>
