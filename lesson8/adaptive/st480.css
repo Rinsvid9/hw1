@@ -1,0 +1,23 @@
+@media screen and (max-width: 480px){
+    body{
+        font-size: 10px;
+    }
+    .main{
+        flex-direction: column;
+    }
+    main, aside{
+        width: 100%;
+    }
+    main{
+        height: 60vh;
+    }
+    section{
+        display: flex;
+    }
+    header p::after{
+        content: 'mobile';
+    }
+    main, aside,footer{
+        font-size: 1.3em;
+    }
+}

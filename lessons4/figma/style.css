@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.rectancle{
+    height: 155px;
+    /*border-radius: 49px;*/
+    border: 10px solid #464667;
+    background: #954;
+    box-shadow: 0 4px 8px 0 rgba(45, 108, 564, 0.22);
+    /*margin: 116px auto 0 auto;*/
+
+}

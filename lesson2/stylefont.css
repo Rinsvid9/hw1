@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Jacquarda+Bastarda+9&display=swap');
+.jacquarda-bastarda-9-regular {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.dancing-script-444 {
+                     font-family: "Dancing Script", cursive;
+                     font-optical-sizing: auto;
+                     font-weight: 444;
+                     font-style: normal;
+                 }

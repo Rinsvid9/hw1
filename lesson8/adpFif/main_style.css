@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+
+body{
+    overflow: hidden;
+    font-family: Inter , sans-serif;
+}
+
+.wrapper{
+    background: #161622;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circl-left{
+    width: 396px;
+    height: 396px;
+    flex-shrink: 0;
+    border-radius: 396px;
+    border: 48px solid #6F1DF4;
+    opacity: 0.5;
+    position: absolute;
+    top: -210px;
+    left: -200px;
+}
+
+.circl-right{
+    width: 260px;
+    height: 260px;
+    flex-shrink: 0;
+    border-radius: 260px;
+    border: 48px solid #6F1DF4;
+    opacity: 0.5;
+    position: absolute;
+    top: -20px;
+    right: -120px;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h2{
+    color:rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 180px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.content h3{
+    color:rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+    letter-spacing: 0.25px;
+    margin: 10px 0 24px 0;
+}
+.content p{
+    width: 533px;
+    color:rgba(255, 255, 255, 0.75);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+
+.content div{
+    display: flex;
+    justify-content:center;
+    gap: 24px;
+    padding-top: 40px;
+}
+
+.content div button:nth-child(1){
+    display: flex;
+    height: 64px;
+    padding: 0px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 32px;
+    background: #6F1DF4;
+    color:#FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+}
+
+.content div button:nth-child(2){
+    display: flex;
+    height: 64px;
+    padding: 0px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 32px;
+    background:#FFF;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+}
