@@ -1,0 +1,47 @@
+h1{
+    color: crimson;
+    /*font-size: 40px;*/
+    width: 50%;
+    background-color: mediumpurple;
+}
+body{
+    background-image: url(im/IMG_20200509_204716.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+
+}
+
+h5{
+    color: darkred;
+    font-size: 20px;
+}
+sub{
+    color: darkred;
+    font-size: 20px;
+}
+sup{
+    color: black;
+    font-size: 20px;
+}
+span{
+    color:lime;
+    /*font-size: 20px;*/
+    width: 50%;
+    height: 50%;
+    background-color: mediumpurple;
+    /*display: inline-block;*/
+}
+
+p{
+    color: black;
+    width: 50%;
+    height: 50%;
+    background-color: mediumpurple;
+    display: inline-block;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
