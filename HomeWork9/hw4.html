@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+        }
+
+        .wrap{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1.5fr 1fr;
+            grid-template-rows: 0.2fr 1.8fr 1.4fr 0.5fr 0.5fr;
+            grid-template-areas:
+            "header header"
+            "left first"
+            "left second"
+            "down down"
+            "footer footer";
+        }
+
+        header{
+            grid-area: header;
+            background: #D9D9D9;
+        }
+        aside{
+            grid-area: left;
+            background: #A4A4A4;
+        }
+
+        .first{
+            grid-area: first;
+            background: #7F7A7A;
+        }
+        .second{
+            grid-area: second;
+            background: #615050;
+        }
+
+        span{
+            grid-area: down;
+            background: #D9D9D9;
+        }
+        footer{
+            grid-area: footer;
+            background: #AFA9A9;
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <header></header>
+    <aside></aside>
+    <section class="first"></section>
+    <section class="second"></section>
+    <span></span>
+    <footer></footer>
+</div>
+
+</body>
+</html>
